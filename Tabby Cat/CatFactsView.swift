@@ -8,8 +8,37 @@
 import SwiftUI
 
 struct CatFactsView: View {
+    
+    @StateObject var catFactsManager = CatFactsManager()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+            Spacer()
+            
+            if let catFact = catFactsManager.catFact {
+                Text(catFact.fact)
+                    .padding()
+            } else {
+                ProgressView()
+                    .progressViewStyle(.circular)
+            }
+            
+            
+            Button {
+                catFactsManager.getCatFact()
+            } label: {
+                Text("Get new fact!")
+            }
+            .buttonStyle(.borderedProminent)
+            .padding()
+            
+            Spacer()
+            
+        }
+        .onAppear {
+            catFactsManager.getCatFact()
+        }
     }
 }
 
