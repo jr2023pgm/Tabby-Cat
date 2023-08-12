@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B4747732A87C06700207445 /* Tabby_CatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4747722A87C06700207445 /* Tabby_CatApp.swift */; };
+		2B4747752A87C06700207445 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4747742A87C06700207445 /* ContentView.swift */; };
+		2B4747772A87C06A00207445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4747762A87C06A00207445 /* Assets.xcassets */; };
+		2B47477A2A87C06A00207445 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4747792A87C06A00207445 /* Preview Assets.xcassets */; };
+		2B4747842A87C06A00207445 /* Tabby_CatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4747832A87C06A00207445 /* Tabby_CatTests.swift */; };
+		2B47478E2A87C06A00207445 /* Tabby_CatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B47478D2A87C06A00207445 /* Tabby_CatUITests.swift */; };
+		2B4747902A87C06A00207445 /* Tabby_CatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B47478F2A87C06A00207445 /* Tabby_CatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B4747802A87C06A00207445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B4747672A87C06700207445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B47476E2A87C06700207445;
+			remoteInfo = "Tabby Cat";
+		};
+		2B47478A2A87C06A00207445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B4747672A87C06700207445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B47476E2A87C06700207445;
+			remoteInfo = "Tabby Cat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B47476F2A87C06700207445 /* Tabby Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabby Cat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4747722A87C06700207445 /* Tabby_CatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabby_CatApp.swift; sourceTree = "<group>"; };
+		2B4747742A87C06700207445 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B4747762A87C06A00207445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B4747792A87C06A00207445 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B47477F2A87C06A00207445 /* Tabby CatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabby CatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4747832A87C06A00207445 /* Tabby_CatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabby_CatTests.swift; sourceTree = "<group>"; };
+		2B4747892A87C06A00207445 /* Tabby CatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabby CatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B47478D2A87C06A00207445 /* Tabby_CatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabby_CatUITests.swift; sourceTree = "<group>"; };
+		2B47478F2A87C06A00207445 /* Tabby_CatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabby_CatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B47476C2A87C06700207445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B47477C2A87C06A00207445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4747862A87C06A00207445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4747662A87C06700207445 = {
+			isa = PBXGroup;
+			children = (
+				2B4747712A87C06700207445 /* Tabby Cat */,
+				2B4747822A87C06A00207445 /* Tabby CatTests */,
+				2B47478C2A87C06A00207445 /* Tabby CatUITests */,
+				2B4747702A87C06700207445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B4747702A87C06700207445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B47476F2A87C06700207445 /* Tabby Cat.app */,
+				2B47477F2A87C06A00207445 /* Tabby CatTests.xctest */,
+				2B4747892A87C06A00207445 /* Tabby CatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B4747712A87C06700207445 /* Tabby Cat */ = {
+			isa = PBXGroup;
+			children = (
+				2B4747722A87C06700207445 /* Tabby_CatApp.swift */,
+				2B4747742A87C06700207445 /* ContentView.swift */,
+				2B4747762A87C06A00207445 /* Assets.xcassets */,
+				2B4747782A87C06A00207445 /* Preview Content */,
+			);
+			path = "Tabby Cat";
+			sourceTree = "<group>";
+		};
+		2B4747782A87C06A00207445 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B4747792A87C06A00207445 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B4747822A87C06A00207445 /* Tabby CatTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B4747832A87C06A00207445 /* Tabby_CatTests.swift */,
+			);
+			path = "Tabby CatTests";
+			sourceTree = "<group>";
+		};
+		2B47478C2A87C06A00207445 /* Tabby CatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B47478D2A87C06A00207445 /* Tabby_CatUITests.swift */,
+				2B47478F2A87C06A00207445 /* Tabby_CatUITestsLaunchTests.swift */,
+			);
+			path = "Tabby CatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B47476E2A87C06700207445 /* Tabby Cat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4747932A87C06A00207445 /* Build configuration list for PBXNativeTarget "Tabby Cat" */;
+			buildPhases = (
+				2B47476B2A87C06700207445 /* Sources */,
+				2B47476C2A87C06700207445 /* Frameworks */,
+				2B47476D2A87C06700207445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tabby Cat";
+			productName = "Tabby Cat";
+			productReference = 2B47476F2A87C06700207445 /* Tabby Cat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B47477E2A87C06A00207445 /* Tabby CatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4747962A87C06A00207445 /* Build configuration list for PBXNativeTarget "Tabby CatTests" */;
+			buildPhases = (
+				2B47477B2A87C06A00207445 /* Sources */,
+				2B47477C2A87C06A00207445 /* Frameworks */,
+				2B47477D2A87C06A00207445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4747812A87C06A00207445 /* PBXTargetDependency */,
+			);
+			name = "Tabby CatTests";
+			productName = "Tabby CatTests";
+			productReference = 2B47477F2A87C06A00207445 /* Tabby CatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B4747882A87C06A00207445 /* Tabby CatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4747992A87C06A00207445 /* Build configuration list for PBXNativeTarget "Tabby CatUITests" */;
+			buildPhases = (
+				2B4747852A87C06A00207445 /* Sources */,
+				2B4747862A87C06A00207445 /* Frameworks */,
+				2B4747872A87C06A00207445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B47478B2A87C06A00207445 /* PBXTargetDependency */,
+			);
+			name = "Tabby CatUITests";
+			productName = "Tabby CatUITests";
+			productReference = 2B4747892A87C06A00207445 /* Tabby CatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B4747672A87C06700207445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2B47476E2A87C06700207445 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2B47477E2A87C06A00207445 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2B47476E2A87C06700207445;
+					};
+					2B4747882A87C06A00207445 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2B47476E2A87C06700207445;
+					};
+				};
+			};
+			buildConfigurationList = 2B47476A2A87C06700207445 /* Build configuration list for PBXProject "Tabby Cat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B4747662A87C06700207445;
+			productRefGroup = 2B4747702A87C06700207445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B47476E2A87C06700207445 /* Tabby Cat */,
+				2B47477E2A87C06A00207445 /* Tabby CatTests */,
+				2B4747882A87C06A00207445 /* Tabby CatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B47476D2A87C06700207445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B47477A2A87C06A00207445 /* Preview Assets.xcassets in Resources */,
+				2B4747772A87C06A00207445 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B47477D2A87C06A00207445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4747872A87C06A00207445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B47476B2A87C06700207445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4747752A87C06700207445 /* ContentView.swift in Sources */,
+				2B4747732A87C06700207445 /* Tabby_CatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B47477B2A87C06A00207445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4747842A87C06A00207445 /* Tabby_CatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4747852A87C06A00207445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4747902A87C06A00207445 /* Tabby_CatUITestsLaunchTests.swift in Sources */,
+				2B47478E2A87C06A00207445 /* Tabby_CatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B4747812A87C06A00207445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B47476E2A87C06700207445 /* Tabby Cat */;
+			targetProxy = 2B4747802A87C06A00207445 /* PBXContainerItemProxy */;
+		};
+		2B47478B2A87C06A00207445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B47476E2A87C06700207445 /* Tabby Cat */;
+			targetProxy = 2B47478A2A87C06A00207445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B4747912A87C06A00207445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B4747922A87C06A00207445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B4747942A87C06A00207445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tabby Cat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Tabby-Cat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B4747952A87C06A00207445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tabby Cat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Tabby-Cat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B4747972A87C06A00207445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Tabby-CatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabby Cat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tabby Cat";
+			};
+			name = Debug;
+		};
+		2B4747982A87C06A00207445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Tabby-CatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabby Cat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tabby Cat";
+			};
+			name = Release;
+		};
+		2B47479A2A87C06A00207445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Tabby-CatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tabby Cat";
+			};
+			name = Debug;
+		};
+		2B47479B2A87C06A00207445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Tabby-CatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tabby Cat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B47476A2A87C06700207445 /* Build configuration list for PBXProject "Tabby Cat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4747912A87C06A00207445 /* Debug */,
+				2B4747922A87C06A00207445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4747932A87C06A00207445 /* Build configuration list for PBXNativeTarget "Tabby Cat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4747942A87C06A00207445 /* Debug */,
+				2B4747952A87C06A00207445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4747962A87C06A00207445 /* Build configuration list for PBXNativeTarget "Tabby CatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4747972A87C06A00207445 /* Debug */,
+				2B4747982A87C06A00207445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4747992A87C06A00207445 /* Build configuration list for PBXNativeTarget "Tabby CatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B47479A2A87C06A00207445 /* Debug */,
+				2B47479B2A87C06A00207445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B4747672A87C06700207445 /* Project object */;
+}
