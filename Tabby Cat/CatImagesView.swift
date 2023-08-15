@@ -6,10 +6,36 @@
 //
 
 import SwiftUI
+import Subsonic
 
 struct CatImagesView: View {
+    
+    @State var catURL = "https://cataas.com/cat?"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+            Spacer()
+            
+            AsyncImage(url: URL(string: catURL)!) { image in
+                image
+                    .resizable()
+                    .scaledToFit()
+                    //.onAppear {
+                        //play(sound: "meow.m4a")
+                    //}
+            } placeholder: {
+                ProgressView()
+            }
+            
+            Spacer()
+            
+            Button("Give me a new cat!") {
+                catURL+="1"
+            }
+            .buttonStyle(.borderedProminent)
+            
+        }
     }
 }
 
