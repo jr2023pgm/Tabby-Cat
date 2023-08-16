@@ -27,6 +27,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Cat Gallery", systemImage: "photo.stack")
                 }
+            CatDetectionView()
+                .tabItem {
+                    Label("CatML", systemImage: "viewfinder")
+                }
         }
     }
 }
